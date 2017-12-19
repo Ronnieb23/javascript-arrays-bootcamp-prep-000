@@ -41,6 +41,6 @@ return chocolateBars;
  }
  function removeElementFromEndOfArray(array) {
  var chocolateBars = array;
- chocolateBars.slice(0, chocolateBars.length - 1);
+ chocolateBars.pop();
  return chocolateBars;
  }
